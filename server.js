@@ -4,7 +4,7 @@ function sleep(ms) {
 
 async function main() {
   while(true) {
-    console.log('Containers rule!');
+    console.log('My server is running in container rules');
     await sleep(5000);
   }
 }
